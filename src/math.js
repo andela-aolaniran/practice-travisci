@@ -1,3 +1,4 @@
+'use strict';
 class Math{
 	constructor(){
 		this.PI = Math.PI ;
@@ -7,9 +8,9 @@ class Math{
 		return numOne + numTwo ;
 	}
 
-	multiplyNumber(numOne, numTwo){
+	multiplyNumbers(numOne, numTwo){
 		return numOne * numTwo ;
 	}
 }
 
-export default Math;
+module.exports = Math;

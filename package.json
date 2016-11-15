@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/andela-aolaniran/practice-travisci#readme",
   "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.18.2",
     "chai": "^3.5.0",
     "mocha": "^3.1.2"
   }
