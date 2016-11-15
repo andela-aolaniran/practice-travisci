@@ -11,6 +11,13 @@ class Math{
 	multiplyNumbers(numOne, numTwo){
 		return numOne * numTwo ;
 	}
+
+	divide(numOne, numTwo){
+		if(numTwo !== 0)
+			return (numOne / numTwo) ;
+		else
+			return NaN ;
+	}
 }
 
 module.exports = Math;

@@ -23,6 +23,12 @@
     "babel": "^6.5.2",
     "babel-core": "^6.18.2",
     "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.2",
+    "gulp-jshint": "^2.0.4",
+    "gulp-mocha": "^3.0.1",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.4",
     "mocha": "^3.1.2"
   }
 }

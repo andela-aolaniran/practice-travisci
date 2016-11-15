@@ -12,5 +12,9 @@ describe ('Math', () => {
 	it('returns the multiplication of 2 numbers', () => {
 		expect(math.multiplyNumbers(4,5)).to.equal(20);
 	});
+
+	it('returns the division', () => {
+		expect(math.divide(4, 2)).to.equal(2);
+	});
 });
 
