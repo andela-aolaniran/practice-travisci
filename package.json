@@ -4,8 +4,8 @@
   "description": "A simple class to help math students",
   "main": "index.js",
   "scripts": {
-  "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/.bin/_mocha",
-  "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+    "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/.bin/_mocha",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "gulp-jshint": "^2.0.4",
     "gulp-mocha": "^3.0.1",
     "gulp-util": "^3.0.7",
+    "istanbul": "^0.4.5",
     "jshint": "^2.9.4",
     "mocha": "^3.1.2"
   }
