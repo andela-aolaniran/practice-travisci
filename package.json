@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/andela-aolaniran/practice-travisci/issues"
   },
-  "homepage": "https://github.com/andela-aolaniran/practice-travisci#readme"
+  "homepage": "https://github.com/andela-aolaniran/practice-travisci#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
 }

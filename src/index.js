@@ -12,4 +12,4 @@ class Math{
 	}
 }
 
-export Math;
+export default Math;
