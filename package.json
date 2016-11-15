@@ -4,7 +4,8 @@
   "description": "A simple class to help math students",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --reporter spec"
+  "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/.bin/_mocha",
+  "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "repository": {
     "type": "git",
