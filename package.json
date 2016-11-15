@@ -1,0 +1,22 @@
+{
+  "name": "math-helper",
+  "version": "1.0.0",
+  "description": "A simple class to help math students",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-aolaniran/practice-travisci.git"
+  },
+  "keywords": [
+    "math"
+  ],
+  "author": "Azeez Olaniran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andela-aolaniran/practice-travisci/issues"
+  },
+  "homepage": "https://github.com/andela-aolaniran/practice-travisci#readme"
+}
