@@ -31,6 +31,3 @@ gulp.task('default', ['jshint', 'mocha_test'], function(){
 
 gulp.task('travis', ['jshint', 'mocha_test'], function(){
 });
-
-gulp.src('coverage/lcov.info')
-  .pipe(coveralls());
