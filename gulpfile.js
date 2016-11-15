@@ -1,5 +1,6 @@
 // include gulp
 var gulp = require('gulp'); 
+var coveralls = require('gulp-coveralls');
 
 // include plug-ins
 var jshint = require('gulp-jshint');
@@ -30,3 +31,6 @@ gulp.task('default', ['jshint', 'mocha_test'], function(){
 
 gulp.task('travis', ['jshint', 'mocha_test'], function(){
 });
+
+gulp.src('test/coverage/**/lcov.info')
+  .pipe(coveralls());
