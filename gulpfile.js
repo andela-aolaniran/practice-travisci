@@ -19,7 +19,6 @@ gulp.task('mocha_test', function() {
         .on('error', gutil.log);
 });
 
-
 gulp.task('default', ['jshint', 'mocha_test'], function(){
 	gulp.watch('./src/*.js', function(){
 		gulp.run('jshint');
@@ -27,4 +26,8 @@ gulp.task('default', ['jshint', 'mocha_test'], function(){
 	gulp.watch('./test/*.js', function(){
 		gulp.run('mocha_test');
 	});
+});
+
+gulp.task('travis', ['jshint', 'mocha_test'], function(){
+	process.exit(0);
 });
