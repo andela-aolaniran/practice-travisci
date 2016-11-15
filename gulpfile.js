@@ -29,5 +29,4 @@ gulp.task('default', ['jshint', 'mocha_test'], function(){
 });
 
 gulp.task('travis', ['jshint', 'mocha_test'], function(){
-	process.exit(0);
 });
